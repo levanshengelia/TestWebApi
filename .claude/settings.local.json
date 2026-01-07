@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run:*)",
+      "Bash(timeout /t 5)",
+      "Bash(dotnet clean:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(powershell:*)",
+      "Bash(curl:*)",
+      "Bash(dir /s /b)",
+      "Bash(findstr:*)",
+      "Bash(winget install:*)",
+      "Bash(iisreset)",
+      "Bash(dotnet publish:*)",
+      "Bash(\"C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\Common7\\\\IDE\\\\devenv.exe\" /ResetSettings)",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dir:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet sln:*)",
+      "Bash(git init:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
